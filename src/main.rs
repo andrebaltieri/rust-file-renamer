@@ -35,7 +35,7 @@ mod test {
     use crate::extract_chars;
 
     #[test]
-    fn should_normalize_string() {
+    fn should_extract_chars_from_string() {
         let number = extract_chars("XXXX28_file-name-sample-to-test");
         assert_eq!(number, "28");
     }
